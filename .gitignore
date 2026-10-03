@@ -1,10 +1,35 @@
-﻿__pycache__/
+﻿```gitignore
+# Python
+__pycache__/
 *.py[cod]
-*.sqlite3
-.env
+*.pyo
+
+# Virtual environment
 .venv/
 venv/
+env/
+ENV/
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
 .vscode/
 .idea/
-staticfiles/
-media/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyCharm
+*.pyc
+```
